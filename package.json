@@ -1,8 +1,8 @@
 {
   "name": "tabmagnet",
-  "displayName": "Tabmagnet",
+  "displayName": "TabMagnet",
   "version": "0.0.1",
-  "description": "A basic Plasmo extension.",
+  "description": "An intelligent tab manager",
   "author": "Amane Suzuki <amane.suzu@gmail.com>",
   "scripts": {
     "dev": "plasmo dev",
@@ -26,6 +26,9 @@
   "manifest": {
     "host_permissions": [
       "https://*/*"
+    ],
+    "permissions": [
+      "history"
     ]
   }
 }
